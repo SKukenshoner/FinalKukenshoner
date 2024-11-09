@@ -1,0 +1,14 @@
+.subtitulos {
+    background-color: rgb(202, 202, 202);
+    padding: 10px;
+    margin: 15px;
+
+    border-radius: 5px;
+}
+
+.containerSub {
+    display: flex;  
+    justify-content: center;
+    list-style-type: none;
+    
+}

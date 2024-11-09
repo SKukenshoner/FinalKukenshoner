@@ -1,0 +1,29 @@
+
+.flexProductos {
+    display: grid;                
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  
+    gap: 20px;                  
+    margin-top: 20px;
+    padding: 10px;
+  }
+ 
+  .bordes {
+    border: 1px solid #ccc;        
+    border-radius: 8px;             
+    overflow: hidden;              
+    text-align: center;           
+    padding: 10px;
+  }
+  
+
+  .espacio {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  img {
+    width: 100%;                    
+    height: auto;                 
+    border-radius: 5px;              
+  }
